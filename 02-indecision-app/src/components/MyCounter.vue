@@ -1,6 +1,6 @@
 <template>
   <h3>Counter: {{ counter }}</h3>
-  <h3>Square: {{ square }}</h3>
+  <h3 data-testid="square-label">Square: {{ square }}</h3>
 
   <div>
     <button class="btn" @click="counter++"> +1 </button>
